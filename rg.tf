@@ -5,4 +5,8 @@
 resource "azurerm_resource_group" "rg" {
   name     = "mahakal"
   location = "southindia"
+
+  tags = {
+    environment = "dev"
+  }
 }
