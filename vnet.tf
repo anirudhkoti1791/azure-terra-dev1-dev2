@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "vnet" {
 
 tags = {
   
-  name = "kasi"
+  name = "tirupati"
 }
 
 }
